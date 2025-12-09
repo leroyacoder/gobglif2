@@ -24,8 +24,8 @@ object-fit: cover;
 position: absolute;   
 width: 994.09px; 
 height: 183px;
-top: 24%;
-left: -50%;
+top: 37%;
+left: 50%;
 transform: translateX(-50%); 
 }
 
@@ -33,14 +33,58 @@ transform: translateX(-50%);
 position: absolute; 
 width: 522.28px; 
 height: 464.37px;   
-margin-top: 0%;
-margin-left: -40%;
+margin-top: -45%;
+margin-left: 60%;
 }
 
 .star2 {
 position: absolute; 
 width: 349.61px; 
 height: 476.53px;   
-margin-top: 2%;
-margin-left: -45%;
+margin-top: -45%;
+margin-left: 53%;
 }
+
+.star3 {
+position: absolute; 
+width: 320px; 
+height: 88.87px;   
+margin-top: -35%;
+margin-left: 70%;
+transform: rotate(-41.12deg)
+}
+
+.star4 {
+position: absolute; 
+width: 182.81px; 
+height: 162.54px;   
+margin-top: -20%;
+margin-left: 80%;
+}
+
+.star5 {
+position: absolute; 
+width: 349.61px; 
+height: 476.53px;   
+margin-top: -34%;
+margin-left: -1%;
+}
+
+.star6 {
+position: absolute; 
+width: 320px; 
+height: 88.87px;   
+margin-top: -14%;
+margin-left: 16%;
+transform: rotate(-41.12deg)
+}
+
+.star7 {
+position: absolute; 
+width: 320px; 
+height: 88.87px;   
+margin-top: -40%;
+margin-left: 10%;
+transform: rotate(-41.12deg)
+}
+

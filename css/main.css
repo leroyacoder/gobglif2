@@ -1,0 +1,46 @@
+body {
+margin: 0%;
+width: 100%;
+overflow-x: hidden;
+background-color: #000000;
+}
+
+.block1 {
+position: relative; 
+width: 100%;
+}
+
+.welck_img {
+width: 100%;
+align-items: center;
+background-size: 100%;
+display: block;
+object-fit: cover;
+    
+}
+
+.name {
+
+position: absolute;   
+width: 994.09px; 
+height: 183px;
+top: 24%;
+left: -50%;
+transform: translateX(-50%); 
+}
+
+.star1 {
+position: absolute; 
+width: 522.28px; 
+height: 464.37px;   
+margin-top: 0%;
+margin-left: -40%;
+}
+
+.star2 {
+position: absolute; 
+width: 349.61px; 
+height: 476.53px;   
+margin-top: 2%;
+margin-left: -45%;
+}

@@ -36,6 +36,7 @@ margin-top: -28%;
 margin-left: 18%;
 display: block; 
 position: absolute; 
+z-index: 3;
 background: url("../img/name2.svg"); 
 animation: rename 0.5s steps(2) infinite; 
 }
@@ -49,28 +50,23 @@ animation: rename 0.5s steps(2) infinite;
 position: absolute; 
 width: 522.28px; 
 height: 464.37px;   
-top: -45%;
-left: 60%;
-/* animation: fly1 4s ease-in-out infinite; */
-/* animation: fly1 4s ease-in-out infinite, star1 8s linear infinite; */
-/* animation-name: fly1, star1;
-animation-duration: 4s, 8s;
-animation-timing-function: ease-in-out, linear;
-animation-iteration-count: infinite, infinite; */
+z-index: 0;
+animation: fly1 4s ease-in-out infinite, star1 8s linear infinite;
+
 
 } 
 
 @keyframes fly1 {
     0% {
-        top: -45%;
+        top: 2%;
         left: 60%;
     }
     50% {
-        top: -25%;
+        top: 15%;
         left: 50%;
     }
     100% {
-        top: -45%;
+        top: 2%;
         left: 60%;
     }
 }
@@ -78,8 +74,9 @@ animation-iteration-count: infinite, infinite; */
     0% {
         transform: rotate(0deg);
     }
+
     100% {
-        transform: rotate(-360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -87,8 +84,32 @@ animation-iteration-count: infinite, infinite; */
 position: absolute; 
 width: 349.61px; 
 height: 476.53px;   
-margin-top: -45%;
-margin-left: 53%;
+z-index: 0;
+animation: fly2 4s ease-in-out infinite, star1 8s linear infinite;
+}
+
+@keyframes fly2 {
+    0% {
+        top: 5%;
+        left: 30%;
+    }
+    50% {
+        top: 7%;
+        left: 35%;
+    }
+    100% {
+        top: 5%;
+        left: 30%;
+    }
+}
+@keyframes star1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .star3 {

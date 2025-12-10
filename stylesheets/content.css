@@ -19,7 +19,7 @@ object-fit: cover;
     
 }
 
-.name {
+/* .name {
 
 position: absolute;   
 width: 994.09px; 
@@ -27,14 +27,60 @@ height: 183px;
 top: 37%;
 left: 50%;
 transform: translateX(-50%); 
+} */
+
+.name{
+width: 994.09px;
+height: 192.5px;
+margin-top: -28%;
+margin-left: 18%;
+display: block; 
+position: absolute; 
+background: url("../img/name2.svg"); 
+animation: rename 0.5s steps(2) infinite; 
+}
+
+@keyframes rename {
+0% { background-position: 0px top; }
+100% { background-position: -1988.18px top; }
 }
 
 .star1 {
 position: absolute; 
 width: 522.28px; 
 height: 464.37px;   
-margin-top: -45%;
-margin-left: 60%;
+top: -45%;
+left: 60%;
+/* animation: fly1 4s ease-in-out infinite; */
+/* animation: fly1 4s ease-in-out infinite, star1 8s linear infinite; */
+/* animation-name: fly1, star1;
+animation-duration: 4s, 8s;
+animation-timing-function: ease-in-out, linear;
+animation-iteration-count: infinite, infinite; */
+
+} 
+
+@keyframes fly1 {
+    0% {
+        top: -45%;
+        left: 60%;
+    }
+    50% {
+        top: -25%;
+        left: 50%;
+    }
+    100% {
+        top: -45%;
+        left: 60%;
+    }
+}
+@keyframes star1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
 }
 
 .star2 {
@@ -87,4 +133,5 @@ margin-top: -40%;
 margin-left: 10%;
 transform: rotate(-41.12deg)
 }
+
 

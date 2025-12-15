@@ -4,6 +4,13 @@
 @font-face {
   font-family: "Noto Sans Display";
   src: url(../fonts/NotoSansDisplay-Medium.ttf) format(truetype);
+  font-weight: 500;
+  font-style: medium;
+} 
+
+/* @font-face {
+  font-family: "Noto Sans Display";
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500&display=swap");
   font-weight: 400;
-  font-style: Medium;
-}
+  font-style: normal;
+} */

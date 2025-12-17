@@ -374,3 +374,102 @@ animation: fly7 4s ease-in-out infinite, star7 8s linear infinite, fade7 2s infi
     0%{ transform: translateX(-50%); }
     100%  { transform: translateX(-100%); }
   }
+
+.ramochka1 {
+width: 584px;
+height: 461px;
+position: absolute;
+margin-top: 10%;
+margin-left: 60%;
+}
+
+
+  .twotext {
+  position: absolute;
+  width: 357px;
+  height: 196px;
+  font-size: 23.04px;
+  line-height: 16px;
+  color: #C9BFB4;
+  z-index: 14;
+  margin-top: 23%;
+margin-left: 68%;
+}
+.twotext:hover {
+  width: 90%;
+  line-height: 22px;
+  letter-spacing: 0.0125em;
+  transition: all .5s ease-out;
+}
+
+.stolik {
+width: 829.5px;
+height: 577px;
+position: absolute;
+margin-top: 20%;
+margin-left: 20%;
+}
+
+.pasatizi {
+width: 20vw;
+height: 16.0417vw;
+position: absolute;
+margin-top: 50%;
+margin-left: -40%;
+}
+
+.pinset {
+width: 28.1042vw;
+height: 25.0597vw;
+position: absolute;
+margin-top: 50%;
+margin-left: -40%;
+}
+
+.salfetka {
+width: 14.8049vw;
+height: 15.0694vw;
+position: absolute;
+margin-top: 50%;
+margin-left: -40%;
+}
+
+.gvozdi {
+width: 7.2771vw;
+height: 13.63vw;
+position: absolute;
+margin-top: 50%;
+margin-left: -40%;
+}
+
+.kolzo {
+width: 8.3611vw;
+height: 9.1667vw;
+position: absolute;
+margin-top: 50%;
+margin-left: -40%;
+}
+
+.righthand {
+width: 19.9319vw;
+height: 16.3208vw;
+position: absolute;
+margin-top: 50%;
+margin-left: 25%;
+}
+
+.lefthend {
+width: 19.9319vw;
+height: 16.3208vw;
+position: absolute;
+margin-top: 50%;
+margin-left: 7%;
+}
+
+.starforhands {
+width: 29.8882vw;
+height: 28.1354vw;
+position: absolute;
+margin-top: 50%;
+margin-left: 10%;
+}
